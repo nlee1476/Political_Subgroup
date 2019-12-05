@@ -1,0 +1,490 @@
+Data Dictionary:
+
+Uniform
+
+SEX: Are you:
+    -Female: 1
+    - Male: 2 
+
+QRACEAI: Are you:
+    -White: 1
+    -Black: 2
+    -Hispanic/Latino: 3
+    -Other: 4
+    -Asian: 5
+    -American Indian: 6
+
+HOU: In today's election for U.S. House of Representatives, did you just vote for:
+    - The Democratic Candidate: 1
+    - The Republican Candidate: 2
+    - Other: 3
+    - Did not vote: 4
+
+SEN: In today's election for U.S. Senate, did you just vote for:
+    - The Democratic Candidate: 1
+    - The Republican Candidate: 2
+    - Other: 3
+    - Did not vote: 4
+    
+GOV: In today's election for governor, did you just vote for:
+    - The Democratic Candidate: 1
+    - The Republican Candidate: 2
+    - Other: 3
+    - Did not vote: 4
+
+AGE8: In which age group are you?:
+    - 18-24: 1
+    - 25-29: 2
+    - 30-39: 3
+    - 40-44: 4
+    - 45-49: 5
+    - 50-59: 6
+    - 60-64: 7
+    - 65 or over: 8
+
+EDUC18: Which best describes your education? You have:
+    - Never attended college: 1
+    - Attended college but received no degree: 2
+    - Associate's degree (AA or AS): 3
+    - Bachelor's degree (BA or BS): 4
+    - An advanced degree after a bachelor's degree (such as JD, MA, MBA, MD, PhD): 5
+
+PARTYID: No matter how you voted today, do you usually think of yourself as a:
+    - Democrat: 1
+    - Republican: 2
+    - Independent: 3
+    - Something else: 4
+
+PHIL3: On most political matters, do you consider yourself:
+    - Moderate: 1 
+    - Liberal: 2 
+    - Conservative: 3
+
+AGEBYRACE: A variable combining AGE8 and QRACEAI: 
+    - White 18-29: 1
+    - White 30-44: 2
+    - White 45-59: 3
+    - White 60+: 4
+    - Black 18-29: 5
+    - Black 30-44: 6
+    - Black 45-59: 7
+    - Black 60+: 8
+    - Latino 18-29: 9
+    - Latino 30-44: 10
+    - Latino 45-59: 11
+    - Latino 60+: 12
+    - All others: 13
+
+PARTYBYRACE: A variable combining QRACEAI and PARTYID:
+    - All Republicans: 1
+    - White Democrat: 2
+    - White Independent: 3
+    - Black Democrat: 4
+    - Black Independent: 5
+    - Latino Democrat: 6
+    - Latino Independent: 7
+    - All Other: 8
+
+RACE2B: White or non-white: 
+    - White: 1
+    - Non-white: 2 
+
+REGION: What region is the surveyer from: 
+    - West: 1
+    - Midwest: 2 
+    - South: 3
+    - East: 4
+    
+SEXBYRACE: A variable combining QRACEAI and SEX: 
+    - White women: 1
+    - White men: 2 
+    - Black women: 3
+    - Black men: 4
+    - Latino women: 5 
+    - Latino men: 6 
+    - All other races: 7 
+
+SIZEPLAC: What kind of population density does the surveyer reside in?: 
+    - Suburbs: 1
+    - Cities 50,000-500,000: 2
+    - Cities over 500,000: 3
+    - Cities 10,000-50,000: 4
+    - Rural: 5 
+
+SUBURBWHITE: A variable combining QRACEAI and SIZEPLAC specifically for suburban white voters: 
+    - White suburban women: 1
+    - White suburban men: 2
+    - Other: 3 
+
+PTYIDEO7: A variable combining PARTYID and PHIL3: 
+    - Conservative Republicans: 1
+    - Mod./Liberal Republicans: 2
+    - Conservative Independents: 3
+    - Moderate Independents: 4
+    - Mod/Conserv. Democrats: 5
+    - Liberal Independents: 6
+    - Liberal Democrats: 7
+
+LATINO: Are you Latino? :
+    - Yes: 1
+    - No: 2
+
+STANUM: What state do you reside in?: 
+    - Alabama : 1 
+    - Arizona : 2
+    - Arkansas: 3, 
+    - California: 4 
+    - Colorado: 5 
+    - Connecticut: 6 
+    - Delaware: 7 
+    - Florida: 8 
+    - Georgia: 9  
+    - Idaho: 10 
+    - Illinois: 11
+    - Indiana: 12 
+    - Iowa: 13
+    - Kansas: 14
+    - Kentucky: 15
+    - Louisiana: 16 
+    - Maine: 17
+    - Maryland: 18 
+    - Massachusetts: 19
+    - Michigan: 20
+    - Minnesota: 21
+    - Mississippi: 22
+    - Missouri: 23
+    - Montana: 24
+    - Nebraska: 25 
+    - Nevada: 26 
+    - New Hampshire: 27
+    - New Jersey: 28 
+    - New Mexico: 29
+    - New York: 30
+    - North Carolina: 31
+    - North Dakota: 32
+    - Ohio: 33
+    - Oklahoma: 34
+    - Oregon: 35
+    - Pennsylvania: 36
+    - Rhode Island: 37
+    - South Carolina': 38
+    - South Dakota: 39
+    - Tennessee: 40
+    - Texas: 41
+    - Utah: 42
+    - Vermont: 43
+    - Virginia: 44
+    - West Virginia: 45
+    - Wisconsin: 46
+    - Wyoming: 47
+
+
+Version 1
+
+TRUMP4: How do you feel about the way Donald Trump is handling his job as president?: 
+    - Strongly disapprove: 1
+    - Somewhat disapprove: 2
+    - Strongly approve: 3
+    - Somewhat approve: 4
+    - Omit: 5
+    
+TRUMPFP18:  Is Donald Trump's approach to foreign policy making:
+    - The U.S. more safe: 1
+    - No difference: 2 
+    - The U.S. less safe: 3
+    - Omit: 4 
+
+ABORTION18: What should the Supreme Court do about Roe vs. Wade, the 1973 decision that made abortion legal?: 
+    - Keep it as is: 1
+    - Overturn it: 2
+    - Omit: 3
+    
+VOTE2016:  In the 2016 election for president, did you vote for:: 
+    - Hillary Clinton: 1
+    - Donald Trump: 2
+    - Other: 3 
+    - Didn't vote: 4 
+    - Omit: 5
+
+KAVANAUGH18: How do you feel about Brett Kavanaugh's confirmation to the Supreme Court?: 
+    - Support: 1
+    - Oppose: 2 
+
+ELECTSECFOREIGN18: Do you think the government has done enough to protect this election from foreign interference?: 
+    - Yes: 1
+    - No: 2
+
+CONTROLHOUSE: Would you rather see the U.S. House of Representatives controlled by: 
+    - The Democratic Party: 1
+    - The Republican Party: 2
+    - Omit: 3
+
+VETVOTER: Have you ever served in the U.S. military?: 
+    - Yes: 1 
+    - No: 2 
+
+FTVOTER18: Is this the first time you have ever voted in a midterm election?: 
+    - Yes: 1
+    - No: 2 
+
+Version 2 
+
+ISSUE18: Which ONE of these four issues is the most important facing the country?: 
+    - Health care: 1 
+    - The economy: 2
+    - Immigration: 3 
+    - Gun policy: 4
+    - Omit: 5 
+
+FAVPELOSI: Is your opinion of Nancy Pelosi:: 
+    - Favorable: 1
+    - Unfavorable: 2 
+    - Omit: 3 
+
+MUELLERAPP: How do you feel about Robert Mueller’s handling of the investigation into Russian interference in the 2016 election?: 
+    - Approve: 1 
+    - Disapprove: 2 
+    - Omit: 3 
+
+TRUMPIMM: Are Donald Trump's immigration policies: 
+    - About right: 1
+    - Too tough: 2 
+    - Not tough enough: 3 
+    - Omit: 4
+    
+IMPEACH18: Should Congress impeach Donald Trump and remove him from office?: 
+    - Yes: 1
+    - No: 2 
+    - Omit: 3 
+
+RACE18: How important is it that more racial and ethnic minorities be elected to public office?:
+    - Very important: 1
+    - Somewhat important: 2 
+    - Not too important: 3 
+    - Not at all important: 4 
+    - Omit: 5 
+
+RUSSIA18: Do you think the investigation into Russian interference in the 2016 election is mostly:
+    - Justified: 1
+    - Politically motivated: 2
+
+RACEFACTOR: In general, how do you think things work in the U.S. today?: 
+    - Whites are favored over minorities: 1
+    - No group is favored: 2 
+    - Minorities are favored over whites: 3
+    - Omit: 4
+
+HEALTHCARE18:Does the health care system in the United States need:
+    - Major changes: 1
+    - Minor changes: 2 
+    - No changes at all: 3 
+    - Omit: 4
+
+RELIGN18: Are you: 
+    - Catholic: 1
+    - Protestant: 2 
+    - Other Christian: 3 
+    - Jewish: 4 
+    - Muslim: 5
+    - Other: 6 
+    - None : 7
+
+
+Version 3
+
+ISSUE18: Which ONE of these four issues is the most important facing the country?: 
+    - Health care: 1 
+    - The economy: 2
+    - Immigration: 3 
+    - Gun policy: 4
+    - Omit: 5 
+    
+TRUMP4: How do you feel about the way Donald Trump is handling his job as president?: 
+    - Strongly disapprove: 1
+    - Somewhat disapprove: 2
+    - Strongly approve: 3
+    - Somewhat approve: 4
+    - Omit: 5
+
+PARENTS: A variable combination of MARRIED and BOYSGIRLS: 
+    - Women without children: 1
+    - Men without children: 2 
+    - Women with children: 3 
+    - Men with children: 4
+
+WOMEN: How important is it that more women be elected to public office?: 
+    - Very important: 1
+    - Somewhat important: 2 
+    - Not too important: 3 
+    - Not at all important: 4
+    - Omit: 5 
+
+HEALTHPRE18: Which party would better protect health care for people with pre-existing conditions?: 
+    - The Democratic Party: 1
+    - The Republican Party: 2
+    - Omit: 3
+
+GUN16: Do you support or oppose stricter gun control measures?: 
+    - Support: 1
+    - Oppose: 2 
+    - Omit: 3 
+
+SEXUALHARASS: How serious a problem is sexual harassment in this country today?: 
+    - Very serious: 1
+    - Somewhat serious: 2 
+    - Not too serious: 3 
+    - Not at all serious: 4
+    - Omit: 5
+
+BOYSGIRLS:  Do you have any children under 18 living in your home?: 
+    - No children in home: 1
+    - Yes, both boys and girls: 2
+    - Yes, only boys: 3
+    - Yes, only girls: 4
+
+ATTEND16: How often do you attend religious services?: 
+    - Once a week or more: 1
+    - A few times a month: 2
+    - A few times a year: 3
+    - Never: 4
+
+BRNAGAIN: Would you describe yourself as a born-again or evangelical Christian?: 
+    - Yes: 1
+    - No: 2 
+
+GUNOWNER12: Does anyone in your household own a gun?
+    - Yes: 1 
+    - No: 2
+    
+MARRIED:  Are you currently married?: 
+    - Yes: 1 
+    - No: 2
+
+RELIGN18: Are you: 
+    - Catholic: 1
+    - Protestant: 2 
+    - Other Christian: 3 
+    - Jewish: 4 
+    - Muslim: 5
+    - Other: 6 
+    - None : 7
+
+SEXWED: A variable combination of SEX and MARRIED: 
+    - Married women: 1
+    - Married men: 2 
+    - Non married women: 3 
+    - Non married men: 4 
+
+ATTREL: How often do you attend religious services, combination with ATTEND16 and RELIGN18: 
+    - All others: 1
+    - Catholic/Do not attend weekly: 2 
+    - Protestant/Do not attend weekly: 3
+    - Protestant/Attend weekly: 4
+    - Catholic/Attend weekly: 5
+
+CHILD18: Are their children in the home, a combination with BOYSGIRLS: 
+    - Yes: 1
+    - No: 2
+
+CHILDBOY: Are their boys in the home, a combination with BOYSGIRLS: 
+    - Yes: 1
+    - No: 2
+
+CHILDGIRL: Are their girls in the home, a combination with BOYSGIRLS: 
+    - Yes: 1
+    - No: 2
+
+
+Version 4
+
+FORTRUMPH: Was one reason for your vote for U.S. House today: 
+    - To express support for Donald Trump: 1
+    - Donald Trump was not a factor: 2
+    - To express opposition to Donald Trump: 3
+    - Omit: 4
+    
+NEC: Do you think the condition of the nation's economy is:: 
+    - Excellent: 1
+    - Good: 2 
+    - Not so good: 3 
+    - Poor: 4 
+    - Omit: 5
+
+INCWHITE: A variable combination with INCOME18GEN and QRACEAI: 
+    - Under $50,000 and white: 1
+    - Over $50,000 and white: 2
+    - Under $50,000 and non white: 3
+    - Over $50,000 and non white: 4
+
+FINSIT2: Compared to two years ago, is your family's financial situation:
+    - Better: 1
+    - About the same: 2
+    - Worse: 3 
+    - Omit: 4
+
+TRADE18: How have Donald Trump's trade policies affected the economy in your area?: 
+    - Helped: 1
+    - No impact: 2 
+    - Hurt: 3
+    - Omit: 4
+
+
+TAXCUTS18: How have the tax laws passed last year affected your personal finances?: 
+    - Helped: 1
+    - No impact: 2 
+    - Hurt: 3
+    - Omit: 4
+
+TRACK: Do you think things in this country today are::
+    - Generally going in the right direction: 1
+    - Seriously off on the wrong track: 2
+    - Omit : 3 
+    
+UNITED18: Politically, do you think Americans are:
+    - Becoming more united: 1
+    - Staying about the same: 2
+    - Becoming more divided: 3 
+    
+FAVDEM2: Is your opinion of the Democratic Party:
+    - Favorable: 1
+    - Unfavorable: 2 
+    - Omit: 3
+
+FAVREP2: Is your opinion of the Republican Party: 
+    - Favorable: 1
+    - Unfavorable: 2 
+    - Omit: 3
+
+LGBT: Are you gay, lesbian, bisexual or transgender?:
+    - Yes: 1
+    - No: 2
+
+INCOME18GEN: 2017 total family income:
+    - Under $30,000: 1
+    - $30,000-$49,999: 2
+    - $50,000-$99,999: 3
+    - $100,000-$199,999: 4
+    - '$200,000 or more': 5
+
+FAVPARTY: An extension of FAVDEM and FAVREP: 
+    - Only Republican Party: 1
+    - Only Democratic Party: 2
+    - Neither party: 3
+    - Both parties: 4
+    - Omit: 5
+
+   
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

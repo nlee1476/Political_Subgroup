@@ -1,0 +1,1037 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "AGE8", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "AGE8_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "AGE8_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[0, 0, 0], [1, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "AGE8_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "AGE8_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "AGE8_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[2, 0, 0], [3, 0, 0], [4, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PTYIDEO7", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PTYIDEO7_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "PTYIDEO7_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[6, 0, 0], [7, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PTYIDEO7_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PTYIDEO7_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "PTYIDEO7_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[8, 0, 0], [9, 0, 0], [10, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "QRACEAI", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "QRACEAI_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "QRACEAI_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[12, 0, 0], [13, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "QRACEAI_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "QRACEAI_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "QRACEAI_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[14, 0, 0], [15, 0, 0], [16, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SEN", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SEN_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "SEN_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[18, 0, 0], [19, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SEN_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SEN_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "SEN_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[20, 0, 0], [21, 0, 0], [22, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "EDUC18", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "EDUC18_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "EDUC18_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[24, 0, 0], [25, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "EDUC18_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "EDUC18_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "EDUC18_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[26, 0, 0], [27, 0, 0], [28, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "HOU", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "HOU_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "HOU_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[30, 0, 0], [31, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "HOU_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "HOU_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "HOU_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[32, 0, 0], [33, 0, 0], [34, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "GOV", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "GOV_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "GOV_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[36, 0, 0], [37, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "GOV_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "GOV_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "GOV_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[38, 0, 0], [39, 0, 0], [40, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SEX", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SEX_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "SEX_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[42, 0, 0], [43, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SEX_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SEX_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "SEX_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[44, 0, 0], [45, 0, 0], [46, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PARTYID", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PARTYID_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "PARTYID_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[48, 0, 0], [49, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PARTYID_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PARTYID_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "PARTYID_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[50, 0, 0], [51, 0, 0], [52, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PHIL3", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PHIL3_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "PHIL3_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[54, 0, 0], [55, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "PHIL3_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PHIL3_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "PHIL3_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[56, 0, 0], [57, 0, 0], [58, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SIZEPLAC", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SIZEPLAC_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "SIZEPLAC_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[60, 0, 0], [61, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "SIZEPLAC_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SIZEPLAC_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "SIZEPLAC_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[62, 0, 0], [63, 0, 0], [64, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "STANUM", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "STANUM_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "STANUM_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[66, 0, 0], [67, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "STANUM_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "STANUM_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "STANUM_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[68, 0, 0], [69, 0, 0], [70, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CONTROLHOUSE", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CONTROLHOUSE_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "CONTROLHOUSE_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[72, 0, 0], [73, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CONTROLHOUSE_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CONTROLHOUSE_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "CONTROLHOUSE_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[74, 0, 0], [75, 0, 0], [76, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVDEM2", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVDEM2_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "FAVDEM2_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[78, 0, 0], [79, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVDEM2_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVDEM2_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "FAVDEM2_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[80, 0, 0], [81, 0, 0], [82, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVREP2", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVREP2_embedding0_weight", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Embedding", 
+      "name": "FAVREP2_embedding0", 
+      "attrs": {
+        "input_dim": "100", 
+        "output_dim": "10"
+      }, 
+      "inputs": [[84, 0, 0], [85, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVREP2_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FAVREP2_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "FAVREP2_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[86, 0, 0], [87, 0, 0], [88, 0, 0]]
+    }, 
+    {
+      "op": "Concat", 
+      "name": "concat1", 
+      "attrs": {
+        "dim": "1", 
+        "num_args": "15"
+      }, 
+      "inputs": [
+        [5, 0, 0], 
+        [11, 0, 0], 
+        [17, 0, 0], 
+        [23, 0, 0], 
+        [29, 0, 0], 
+        [35, 0, 0], 
+        [41, 0, 0], 
+        [47, 0, 0], 
+        [53, 0, 0], 
+        [59, 0, 0], 
+        [65, 0, 0], 
+        [71, 0, 0], 
+        [77, 0, 0], 
+        [83, 0, 0], 
+        [89, 0, 0]
+      ]
+    }, 
+    {
+      "op": "null", 
+      "name": "label_TRUMPFP18_weight", 
+      "attrs": {"num_hidden": "4"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "label_TRUMPFP18_bias", 
+      "attrs": {"num_hidden": "4"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "label_TRUMPFP18", 
+      "attrs": {"num_hidden": "4"}, 
+      "inputs": [[90, 0, 0], [91, 0, 0], [92, 0, 0]]
+    }, 
+    {
+      "op": "log_softmax", 
+      "name": "log_softmax1", 
+      "inputs": [[93, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "TRUMPFP18", 
+      "inputs": []
+    }, 
+    {
+      "op": "_mul_scalar", 
+      "name": "_mulscalar2", 
+      "attrs": {"scalar": "0.0"}, 
+      "inputs": [[95, 0, 0]]
+    }, 
+    {
+      "op": "_plus_scalar", 
+      "name": "_plusscalar3", 
+      "attrs": {"scalar": "4"}, 
+      "inputs": [[96, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_lesser", 
+      "name": "broadcast_lesser1", 
+      "inputs": [[95, 0, 0], [97, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_mul", 
+      "name": "_mul3", 
+      "inputs": [[95, 0, 0], [98, 0, 0]]
+    }, 
+    {
+      "op": "SliceChannel", 
+      "name": "split1", 
+      "attrs": {
+        "axis": "1", 
+        "num_outputs": "1", 
+        "squeeze_axis": "1"
+      }, 
+      "inputs": [[99, 0, 0]]
+    }, 
+    {
+      "op": "pick", 
+      "name": "pick2", 
+      "inputs": [[94, 0, 0], [100, 0, 0]]
+    }, 
+    {
+      "op": "_mul_scalar", 
+      "name": "_mulscalar3", 
+      "attrs": {"scalar": "-1"}, 
+      "inputs": [[101, 0, 0]]
+    }, 
+    {
+      "op": "zeros_like", 
+      "name": "zeros_like1", 
+      "inputs": [[100, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_greater", 
+      "name": "broadcast_greater1", 
+      "inputs": [[100, 0, 0], [103, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_mul", 
+      "name": "_mul4", 
+      "inputs": [[102, 0, 0], [104, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "__empirical_risk_instance_weight__", 
+      "inputs": []
+    }, 
+    {
+      "op": "pick", 
+      "name": "pick3", 
+      "inputs": [[106, 0, 0], [100, 0, 0]]
+    }, 
+    {
+      "op": "elemwise_mul", 
+      "name": "_mul5", 
+      "inputs": [[105, 0, 0], [107, 0, 0]]
+    }, 
+    {
+      "op": "sum", 
+      "name": "sum2", 
+      "inputs": [[104, 0, 0]]
+    }, 
+    {
+      "op": "_plus_scalar", 
+      "name": "_plusscalar4", 
+      "attrs": {"scalar": "1.0"}, 
+      "inputs": [[109, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_div", 
+      "name": "broadcast_div2", 
+      "inputs": [[108, 0, 0], [110, 0, 0]]
+    }, 
+    {
+      "op": "ones_like", 
+      "name": "ones_like1", 
+      "inputs": [[100, 0, 0]]
+    }, 
+    {
+      "op": "sum", 
+      "name": "sum3", 
+      "inputs": [[112, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_mul", 
+      "name": "broadcast_mul2", 
+      "inputs": [[111, 0, 0], [113, 0, 0]]
+    }, 
+    {
+      "op": "mean", 
+      "name": "mean1", 
+      "inputs": [[114, 0, 0]]
+    }, 
+    {
+      "op": "_plus_scalar", 
+      "name": "_plusscalar5", 
+      "attrs": {"scalar": "1e-05"}, 
+      "inputs": [[115, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_div", 
+      "name": "broadcast_div3", 
+      "inputs": [[114, 0, 0], [116, 0, 0]]
+    }, 
+    {
+      "op": "add_n", 
+      "name": "elementwisesum3", 
+      "attrs": {"num_args": "1"}, 
+      "inputs": [[117, 0, 0]]
+    }, 
+    {
+      "op": "_div_scalar", 
+      "name": "_divscalar3", 
+      "attrs": {"scalar": "1.0"}, 
+      "inputs": [[118, 0, 0]]
+    }, 
+    {
+      "op": "add_n", 
+      "name": "elementwisesum2", 
+      "attrs": {"num_args": "1"}, 
+      "inputs": [[116, 0, 0]]
+    }, 
+    {
+      "op": "_div_scalar", 
+      "name": "_divscalar2", 
+      "attrs": {"scalar": "1.0"}, 
+      "inputs": [[120, 0, 0]]
+    }, 
+    {
+      "op": "broadcast_mul", 
+      "name": "broadcast_mul3", 
+      "inputs": [[119, 0, 0], [121, 0, 0]]
+    }, 
+    {
+      "op": "MakeLoss", 
+      "name": "makeloss1", 
+      "attrs": {
+        "normalization": "valid", 
+        "valid_thresh": "1e-06"
+      }, 
+      "inputs": [[122, 0, 0]]
+    }, 
+    {
+      "op": "softmax", 
+      "name": "softmax1", 
+      "inputs": [[93, 0, 0]]
+    }, 
+    {
+      "op": "BlockGrad", 
+      "name": "pred-TRUMPFP18", 
+      "inputs": [[124, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    1, 
+    3, 
+    4, 
+    6, 
+    7, 
+    9, 
+    10, 
+    12, 
+    13, 
+    15, 
+    16, 
+    18, 
+    19, 
+    21, 
+    22, 
+    24, 
+    25, 
+    27, 
+    28, 
+    30, 
+    31, 
+    33, 
+    34, 
+    36, 
+    37, 
+    39, 
+    40, 
+    42, 
+    43, 
+    45, 
+    46, 
+    48, 
+    49, 
+    51, 
+    52, 
+    54, 
+    55, 
+    57, 
+    58, 
+    60, 
+    61, 
+    63, 
+    64, 
+    66, 
+    67, 
+    69, 
+    70, 
+    72, 
+    73, 
+    75, 
+    76, 
+    78, 
+    79, 
+    81, 
+    82, 
+    84, 
+    85, 
+    87, 
+    88, 
+    91, 
+    92, 
+    95, 
+    106
+  ], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    9, 
+    10, 
+    11, 
+    12, 
+    13, 
+    14, 
+    15, 
+    16, 
+    17, 
+    18, 
+    19, 
+    20, 
+    21, 
+    22, 
+    23, 
+    24, 
+    25, 
+    26, 
+    27, 
+    28, 
+    29, 
+    30, 
+    31, 
+    32, 
+    33, 
+    34, 
+    35, 
+    36, 
+    37, 
+    38, 
+    39, 
+    40, 
+    41, 
+    42, 
+    43, 
+    44, 
+    45, 
+    46, 
+    47, 
+    48, 
+    49, 
+    50, 
+    51, 
+    52, 
+    53, 
+    54, 
+    55, 
+    56, 
+    57, 
+    58, 
+    59, 
+    60, 
+    61, 
+    62, 
+    63, 
+    64, 
+    65, 
+    66, 
+    67, 
+    68, 
+    69, 
+    70, 
+    71, 
+    72, 
+    73, 
+    74, 
+    75, 
+    76, 
+    77, 
+    78, 
+    79, 
+    80, 
+    81, 
+    82, 
+    83, 
+    84, 
+    85, 
+    86, 
+    87, 
+    88, 
+    89, 
+    90, 
+    91, 
+    92, 
+    93, 
+    94, 
+    95, 
+    96, 
+    97, 
+    98, 
+    99, 
+    100, 
+    101, 
+    102, 
+    103, 
+    104, 
+    105, 
+    106, 
+    107, 
+    108, 
+    109, 
+    110, 
+    111, 
+    112, 
+    113, 
+    114, 
+    115, 
+    116, 
+    117, 
+    118, 
+    119, 
+    120, 
+    121, 
+    122, 
+    123, 
+    124, 
+    125, 
+    126
+  ], 
+  "heads": [[123, 0, 0], [125, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 10501]}
+}
